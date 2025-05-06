@@ -9,6 +9,7 @@ const Contact = () => {
       <p><strong>Email:</strong> manishimweisabella@gmail.com</p>
       <p><strong>Address:</strong> Eastern province, Rwanda</p>
       <p><strong>Tel:</strong>0793679835</p>
+      <p><strong>Id:</strong></p>
     </div>
   
      </div>   
