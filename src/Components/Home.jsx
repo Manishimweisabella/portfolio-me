@@ -15,7 +15,7 @@ const Home = () => {
       <button className="bg-gradient-to-r from-green-400 to-blue-400 text-white hidden md:inline-block transform transition-transform duration-300 hover:scale-150 px-4 py-2 rounded-full">
   Contact me
 </button>
-<button className="bg-gradient-to-r from-green-400 to-red-400 text-white hidden md:inline-block transform transition-transform duration-300 hover:scale-150 px-4 py-2 rounded-full">
+<button className="bg-gradient-to-r from-cyan-400 to-yellow-400 text-white hidden md:inline-block transform transition-transform duration-300 hover:scale-150 px-4 py-2 rounded-full">
   Resume
 </button>
 </div>
