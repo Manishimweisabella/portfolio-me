@@ -5,7 +5,12 @@ const Navbar = () => {
     
         <div className='bg-black text-white px-8 md:px-16 lg:px-24'>
           <div className="container py-3 flex justify-center md:justify-between items-center">
-            <h1 className="text-2xl font-bold hidden md:inline">isabella</h1>
+            <div className="flex justify-start p-4">
+        <button className="text-2xl  hidden  font-bold  md:inline text-white">
+
+          <Link to="/">isabella</Link>
+          </button>
+          </div>
             <ul className="flex space-x-6">
               <li className="hover:text-gray-400"><Link to="/">Home</Link></li>
               <li className="hover:text-gray-400"><Link to="/about">About me</Link></li>

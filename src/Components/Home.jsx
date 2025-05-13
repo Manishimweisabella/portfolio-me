@@ -3,7 +3,8 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="flex bg-black w-full h-96 items-center px-20" id="home">
-    <div className="w-20 h-20 bg-[url('/Image/Pic.png')] bg-cover bg-center bg-no-repeat rounded-full">
+    <div className=" mx-auto mb-11 w-48 h-48 rounded-full object-contain transforms transition-transform duration-300  hover:scale-105
+     bg-[url('/Image/Pic.png')] bg-cover bg-center bg-no-repeat">
     </div> 
     <div className="ml-10 mt-10">
       <h1 className=" text-blue-500 font-bold text-4xl ">Hello, <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400'>I'm Manishimwe Isabella</span></h1>
