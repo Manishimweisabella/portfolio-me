@@ -16,12 +16,13 @@ const Contact = () => {
           <h3 className="text-xl font-semibold">Let's Talk</h3>
           <p className="mt-2">
             I'm open to discussing web development opportunities.
+            <p>take a look around and see what I've been working on</p>
           </p>
 
           <div className="mt-4 space-y-4">
             <div>
               <FaEnvelope className="inline-block text-green-400 mr-2"/>
-              <span>Email: example@example.com</span>
+              <span>Email: manishimweisabell@gmail.com</span>
             </div>
             <div>
             <FaPhoneAlt className='inline-block text-green-400 mr-2'/>
@@ -80,7 +81,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
