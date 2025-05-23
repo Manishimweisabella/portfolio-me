@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaYoutube, FaGoogle, FaFacebook, FaEnvelope } from 'react-icons/fa';
+import {  FaGoogle, FaFacebook, FaEnvelope } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div className="bg-blue-700 h-96 w-full flex flex-col  space-y-4">
@@ -28,15 +28,6 @@ const Footer = () => {
 
 
       <div className="flex space-x-6 text-2xl text-center justify-center">
-        
-        <a
-          href="https://www.youtube.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-white  p-3 rounded-full hover:bg-red-100 hover:text-red-600 transition"
-        >
-          <FaYoutube />
-        </a>
         <a
           href="https://www.google.com"
           target="_blank"

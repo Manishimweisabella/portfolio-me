@@ -1,7 +1,29 @@
-import React from 'react'
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhoneAlt } from "react-icons/fa";
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_itw6yzi', 'template_h094hpq', form.current, {
+        publicKey: 'hjKPFJ_TFE8mub_PE',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
   return (
     <div
       className="container mx-auto py-12 px-8 md:px-16 lg:px-24 bg-black h-screen w-full"
@@ -32,37 +54,37 @@ const Contact = () => {
         </div>
 
         <div className="flex-1 max-w-md p-6 rounded-xl shadow-md space-y-4 bg-gray-900 w-full">
-          <form className="space-y-4">
+          <form className="space-y-4"ref={form} onSubmit={sendEmail} >
+          
             <div className="flex flex-col text-left">
-              <label htmlFor="email" className="text-white mb-2">
+              <label className="text-white mb-2">
+                Name
+              </label>
+              <input
+                type="text" name="user_name"
+                placeholder="Enter your Name"
+                className="w-full p-2 bg-slate-800 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
+              />
+            </div>
+          
+            <div className="flex flex-col text-left">
+              <label  className="text-white mb-2">
                 Email
               </label>
               <input
-                type="email"
-                id="email"
+               type="email" name="user_email"
                 placeholder="Enter your email"
                 className="w-full p-2 bg-slate-800 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
               />
             </div>
 
-            <div className="flex flex-col text-left">
-              <label htmlFor="telephone" className="text-white mb-2">
-                Telephone
-              </label>
-              <input
-                type="tel"
-                id="telephone"
-                placeholder="Enter your telephone"
-                className="w-full p-2 bg-slate-800 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
-              />
-            </div>
 
             <div className="flex flex-col text-left">
               <label htmlFor="message" className="text-white mb-2">
                 Message
               </label>
               <textarea
-                id="message"
+                 name="message"
                 placeholder="Enter your message"
                 className="w-full p-2 bg-slate-800 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400"
                 rows="5"

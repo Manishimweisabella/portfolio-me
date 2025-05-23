@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className="flex bg-black w-full h-96 items-center px-20" id="home">
+    <div className="flex bg-black w-full h-96 items-center px-20" id="home"> 
     <div className=" mx-auto mb-11 w-48 h-48 rounded-full object-contain transforms transition-transform duration-300  hover:scale-105
      bg-[url('/Image/Pic.png')] bg-cover bg-center bg-no-repeat">
     </div> 
