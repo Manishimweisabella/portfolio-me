@@ -31,17 +31,17 @@ const Skill = () => {
         </div>
 
         <div className="border border-blue-500 rounded text-center w-44 font-bold">
-          <div
-            className=""
-            style={{ backgroundImage: "url('/Image/react.png')"}}
-          ></div>
-          <p className="mt-2">React</p>
-        </div>
-      <div>
+  <div
+    className="h-20 w-20 bg-no-repeat bg-contain mx-auto"
+    style={{ backgroundImage: "url('/Image/react..png')" }}
+  ></div>
+  <p className="mt-2">React</p>
+</div>
+
         
       </div>
       </div>
-    </div>
+    
   )
 }
 

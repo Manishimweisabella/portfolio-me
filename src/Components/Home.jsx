@@ -9,11 +9,11 @@ const Home = () => {
     <div className="ml-10 mt-10">
       <h1 className=" text-blue-500 font-bold text-4xl ">Hello, <span className='text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-400'>I'm Manishimwe Isabella</span></h1>
       <p className="mt-4 text-lg text-gray-400">I'm a passionate web developer and 
-        designer dedicated to building beautiful and functional digital experiences.</p>
+        designer dedicated to building beautiful.</p>
           <p className="mt-2 text-lg text-gray-400">Welcome to my portfolio website</p>
       <p className='font-bold  text-lg text-gray-400'>take a look around and see what I've been working on</p>
       <div className='space-x-6 mt-6'>
-      <button className="bg-gradient-to-r from-green-400 to-blue-400 text-white hidden md:inline-block transform transition-transform duration-300 hover:scale-150 px-4 py-2 rounded-full">
+   <button className="bg-gradient-to-r from-green-400 to-blue-400 text-white hidden md:inline-block transform transition-transform duration-300 hover:scale-150 px-4 py-2 rounded-full">
   Contact me
 </button>
 <button className="bg-gradient-to-r from-cyan-400 to-yellow-400 text-white hidden md:inline-block transform transition-transform duration-300 hover:scale-150 px-4 py-2 rounded-full">
