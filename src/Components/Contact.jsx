@@ -37,8 +37,7 @@ const Contact = () => {
         <div className="flex-1">
           <h3 className="text-xl font-semibold">Let's Talk</h3>
           <p className="mt-2">
-            I'm open to discussing web development opportunities.
-            <p>take a look around and see what I've been working on</p>
+          <p>take a look around and see what I've been working on</p>
           </p>
 
           <div className="mt-4 space-y-4">
@@ -106,4 +105,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Contact;;
