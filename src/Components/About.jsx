@@ -7,8 +7,7 @@ const About = () => {
   
     <div className="flex flex-col md:flex-row items-center md:space-x-20">
       <div className="w-40 h-52 rounded bg-[url('/Image/Pic.png')] bg-cover bg-no-repeat mb-8 md:mb-0 mx-10"></div>
-  
-      <div className="max-w-md text-white">
+    <div className="max-w-md text-white">
         <p className="text-center md:text-left mb-6">
           I'm a student of Software Development. I have different skills in web technologies 
           and I am passionate about creating interactive and responsive web applications.
@@ -48,7 +47,8 @@ const About = () => {
   <div className="bg-gray-800 p-4 rounded flex-1 min-w-[250px]">
     <h3 className="text-xl font-semibold text-blue-400">Web Developer</h3>
     <p className="text-sm text-gray-300">
-      I build and maintain websites using modern technologies to ensure fast performance and great user experience.
+      I build and maintain websites using modern technologies to ensure fast performance
+      user experience.
     </p>
   </div>
 
