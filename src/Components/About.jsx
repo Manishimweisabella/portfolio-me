@@ -6,7 +6,8 @@ const About = () => {
     <h2 className="text-3xl font-semibold text-center mb-8 text-white">About Me</h2>
   
     <div className="flex flex-col md:flex-row items-center md:space-x-20">
-      <div className="w-40 h-52 rounded bg-[url('/Image/Pic.png')] bg-cover bg-no-repeat mb-8 md:mb-0 mx-10"></div>
+      <div className="w-40 h-52 rounded bg-[url('/Image/Pic.png')] bg-cover bg-no-repeat mb-8 md:mb-0 mx-10">
+      </div>
     <div className="max-w-md text-white">
         <p className="text-center md:text-left mb-6">
           I'm a student of Software Development. I have different skills in web technologies 
